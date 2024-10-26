@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    background-color:  hsl(216, 12%, 8%);
+    display: grid;
+    place-content: center;
+}
+.container{
+    background-color: hsl(213, 19%, 18%);
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 40% 15% 15%;
+}
+img{
+    margin-left: 110px;
+    margin-top: 20px;
+    width: 150px;
+}
+h1{
+    color: white;
+}
+p{
+    color: hsl(217, 12%, 63%);
+}
+button{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(220, 3%, 22%);
+    border: none;
+    width: 200px;
+    height: 35px;
+    border-radius: 50px;
+    font-size: 13px;
+    margin-left: 100px;
+}
